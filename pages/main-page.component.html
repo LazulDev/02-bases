@@ -1,0 +1,16 @@
+<h1>DBZ Personajes</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <dbz-list [characters]="characters" (characterDeleted)="onCharacterDeleted($event)"></dbz-list>
+
+    @if(deletedCharacter) {
+      <p> Héroe borrado <small class="text-danger">{{deletedCharacter.name}}</small></p>
+    }
+  </div>
+
+  <div class="col">
+    <dbz-add-character (characterAdded)="onCharacterAdded($event)"></dbz-add-character>
+  </div>
+</div>
