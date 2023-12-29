@@ -1,6 +1,15 @@
 # Bases
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7. Yey 🥳
+This a simple project to get familiar with out-of-the-box Angular v17 control flow syntax.
+
+For `@if` condition and `@for` loop usage check, in example, [`ListComponent`](https://github.com/LazulDev/02-bases/blob/main/src/app/dbz/components/list/list.component.html) template.
+
+Based on [Angular: De cero a experto](https://cursos.devtalles.com/courses/angular) course by [Fernando Herrera](https://fernando-herrera.com/#/home)
+Thanks @Klerith, you rock! 🚀
+
+Deployed at [https://lazuldev.github.io/02-bases/](https://lazuldev.github.io/02-bases/)
+
 
 ## Development server
 
@@ -14,13 +23,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+Run `npm run build:github-pages` to build the project for github-pages. The build artifacts will be stored in the `docs/` directory.
+
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+There are no tests yet
 
 ## Further help
 
